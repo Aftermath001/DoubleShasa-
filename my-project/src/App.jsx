@@ -1,7 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import List from "./components/Services";
+import TestimonialPage from "./components/TestimonialPage";
+import Footer from "./components/Footer";
+import Services from "./components/Services";
+import AboutUs from "./components/AboutUs";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -13,9 +18,26 @@ const App = () => {
         </div>
 
         <div id="services">
-          <List/>
+          <Services/>
+        </div>
+
+        <div id="about">
+          <AboutUs/>
+        </div>
+
+        <div id="portfolio">
+          <Portfolio/>
+        </div>
+
+        <div id="testimonials">
+          <TestimonialPage />
+        </div>
+
+        <div id="contact">
+          <Contact />
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };

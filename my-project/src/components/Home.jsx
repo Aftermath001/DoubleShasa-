@@ -35,6 +35,8 @@ const Home = () => {
           <h2 className="font-semibold">Branding</h2>
         </div>
       </div>
+
+    
     </div>
   );
 };
